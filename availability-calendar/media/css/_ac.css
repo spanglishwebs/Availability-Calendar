@@ -1,0 +1,75 @@
+#ac_meta_box .ac-day {
+    cursor: pointer;
+}
+
+#calendars-wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+#calendar-prev {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+#calendar-next {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+#calendars .ac-table-wrapper {
+    float: left;
+    height: 250px;
+    padding: 0.5em;
+    width: 170px;
+}
+
+#calendars table.ac-calendar {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#calendars table.ac-calendar th,
+#calendars table.ac-calendar td {
+    border: 1px solid black;
+    font-size: 11px;
+    padding: 3px;
+    text-align: center;
+}
+
+#calendars table.ac-calendar th {
+    background-color: #fff;
+    color: #666;
+}
+
+#calendars table.ac-calendar {
+    height: auto;
+    width: auto;
+}
+
+#calendars table.ac-calendar td.ac-day {
+    height: 23px;
+    width: 23px;
+}
+
+.ac-image {
+    height: 23px;
+    width: 23px;
+}
+
+#ac-price-table-wrapper {
+    padding: 1em;
+}
+
+#ac-price-table, #ac-price-table th, #ac-price-table td {
+    background-color: #fff;
+    border: 1px solid black;
+    color: #000;
+    padding: 3px;
+}
+#ac-pricetable input[type="text"] {width: 100px}

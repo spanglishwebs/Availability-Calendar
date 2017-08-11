@@ -1,0 +1,142 @@
+#ac_meta_box .ac-day {
+    cursor: pointer;
+}
+
+.calendars-wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+	text-align: center;
+}
+
+.calendar-prev {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.calendar-next {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.calendars .ac-table-wrapper {
+    float: none;
+	display: inline-block;
+    height: 250px;
+    padding: 0.5em;
+    width: 175px;
+    border-radius: 15px;
+}
+
+.calendars table.ac-calendar {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.calendars table.ac-calendar th,
+.calendars table.ac-calendar td {
+    border: 1px solid #cccccc;
+    font-size: 11px;
+    padding: 3px;
+    text-align: center;
+}
+
+.calendars table.ac-calendar th {
+    background-color: #fff;
+    color: #666;
+}
+
+.calendars table.ac-calendar {
+    height: auto;
+    width: auto;
+}
+
+.calendars table.ac-calendar td.ac-day {
+    height: 23px;
+    width: 23px;
+}
+
+.calendars table.ac-calendar .ac-empty {
+    background-color: #fff!important;
+    background-image: none!important;
+    color: #fff!important;
+}
+
+.calendars table.ac-calendar .ac-inactive {
+    background-color: #fff!important;
+    color: #999!important;
+    cursor: default;
+}
+
+.ac-image {
+    height: 23px;
+    width: 23px;
+}
+
+.calendars table.ac-calendar th, #calendars table.ac-calendar td{
+    border:1px solid #CCCCCC;
+    padding: 3px;
+}
+
+.calendars table.ac-calendar{
+    border:1px solid #CCCCCC;
+}
+
+.ac-price-table, .ac-price-table th, .ac-price-table td {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    color: #000;
+    padding: 3px;
+}
+
+.ac-price-table th{color:#3070b0}
+#ac-pricetable input[type="text"] {width: 100px}
+
+.wp-admin .ac-table-wrapper {
+    margin-top: 1.5em;
+}
+
+.ac-change-status {
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+    .calendars .ac-table-wrapper {
+        float: none;
+        margin: 0px auto;
+		width: 200px;
+    }
+}
+@media screen and (min-width: 521px) and (max-width: 780px) {
+    .calendars .ac-table-wrapper {
+        width: 202px;
+    }
+}
+@media screen and (min-width: 781px) and (max-width: 820px) {
+    .calendars .ac-table-wrapper {
+        width: 212px;
+    }
+}
+@media screen and (min-width: 970px) and (max-width: 1020px){
+    .calendars .ac-table-wrapper {
+        width: 197px;
+    }
+}
+@media screen and (min-width: 1021px){
+    .calendars .ac-table-wrapper {
+        width: 175px;
+    }
+}
+@media screen and (max-width: 892px) {
+    
+.ac-price-table-wrapper {
+    overflow-x: scroll;
+}
+
+}
